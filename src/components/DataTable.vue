@@ -129,6 +129,7 @@
                 clickRowToExpand && updateExpandingItemIndexList(index + prevPageEndIndex, item, $event);
               }"
               @dblclick="($event) => {clickRow(item, 'double', $event)}"
+              @contextmenu="($event) => {clickRow(item, 'right', $event)}"
             >
               <td
                 v-for="(column, i) in headerColumns"

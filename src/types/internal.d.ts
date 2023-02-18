@@ -21,7 +21,7 @@ export type ClientSortOptions = {
   sortDesc: boolean | boolean[],
 }
 
-export type ClickEventType = 'single' | 'double'
+export type ClickEventType = 'single' | 'double' | 'right'
 
 export type MultipleSelectStatus = 'allSelected' | 'noneSelected' | 'partSelected'
 
